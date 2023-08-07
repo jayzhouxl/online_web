@@ -21,3 +21,6 @@ hugo server -t YOURTHEME
 - An `about.md` that is intended to provide the `/about/` page for a theme demo
 6. If you intend to build a theme that does not fit in the content structure provided in this repository, then you are still more than welcome to submit it for review at the [Hugo Themes](https://github.com/gohugoio/hugoThemes/issues) respository
 
+拉取的时候:git clone https://github.com/jayzhouxl/online_web.git --recurse-submodules(拉去子模块)
+在gitlod上执行的命令:hugo server -D -F --baseURL $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0 --themesDir ../..
+不然会显示异常,这里主要是绑定了url,然后里面的一些标签的url命令会指定到这边
