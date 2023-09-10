@@ -21,3 +21,16 @@ hugo server -t YOURTHEME
 - An `about.md` that is intended to provide the `/about/` page for a theme demo
 6. If you intend to build a theme that does not fit in the content structure provided in this repository, then you are still more than welcome to submit it for review at the [Hugo Themes](https://github.com/gohugoio/hugoThemes/issues) respository
 
+拉取的时候:git clone https://github.com/jayzhouxl/online_web.git --recurse-submodules(拉去子模块)
+在gitlod上执行的命令:hugo server -D -F --baseURL $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0 --themesDir ../..
+不然会显示异常,这里主要是绑定了url,然后里面的一些标签的url命令会指定到这边
+
+网站的浏览器小图标如何修改:
+1.修改位置: hugo-clarity/layouts/partials/favicon.html(  3 {{- $favicon := absURL (printf "%s%s" $iconsDir "z.png" ) }})
+2.将所需的图片移到对应的目录中:themes/hugo-clarity/static/icons
+网站的标题修改:
+./config/_default/languages.toml
+修改网站头的颜色和夜晚的背景色:
+vim ./themes/hugo-clarity/assets/sass/_variables.sass 这上面两个bg所指的地方
+3.免责声明的修改:目前免责声明是放在侧边栏的，目前是关闭状态，如果打开的话，可以在这个(vim themes/hugo-clarity/layouts/partials/sidebar.html)修改免责声明的位置
+4.启动命令需要加上这个baseurl,不然hugo server在作为服务器查找资源的时候，默认的url是localhost，所以在公网访问的时候，会访问失败(hugo server -p 80  --bind=0.0.0.0 --baseURL 111.229.180.214)

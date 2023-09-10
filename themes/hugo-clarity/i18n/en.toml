@@ -1,0 +1,72 @@
+[read_more]
+other = "点击阅读"
+
+[copyright]
+other = "Copyright"
+
+[all_rights]
+other = "All Rights Reserved"
+
+[share_on]
+other = "分享至"
+
+[featured_posts]
+other = "还不错的文章"
+
+[recent_posts]
+other = "最新文章"
+
+[404_title]
+other = "网页丢失了,回首页再看看其他文章吧~~"
+
+[could_not_find]
+other = "找不到你要找的文章哟,试试其他关键词吧"
+
+[go_back]
+other = "返回上一层"
+
+[translations]
+other = "翻译"
+
+[categories]
+other = "分类"
+
+[tags]
+other = "标签"
+
+[series]
+other = "系列文章"
+
+[all_categories]
+other = "看看所有的分类"
+
+[all_tags]
+other = "这边有所有的标签"
+
+[all_series]
+other = "全部系列的文章"
+
+[overview]
+other = "概述"
+
+[reading_time]
+other = "阅读此文章预计需要{{ .ReadingTime }} min"
+
+[series_posts]
+other = "本系列的文章"
+
+# search
+[quick_links]
+  other = "结果"
+[no_matches]
+  other = "未找到任何匹配项,试试其他关键词吧"
+[search_field_placeholder]
+  other = "查找知识"
+[blog_search_field_placeholder]
+  other = "Search..."
+[search_results_label]
+  other = "查找结果"
+[short_search_query]
+  other = "关键词太短啦"
+[type_to_search]
+  other = "查找"
