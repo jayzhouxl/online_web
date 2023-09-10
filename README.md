@@ -33,3 +33,4 @@ hugo server -t YOURTHEME
 修改网站头的颜色和夜晚的背景色:
 vim ./themes/hugo-clarity/assets/sass/_variables.sass 这上面两个bg所指的地方
 3.免责声明的修改:目前免责声明是放在侧边栏的，目前是关闭状态，如果打开的话，可以在这个(vim themes/hugo-clarity/layouts/partials/sidebar.html)修改免责声明的位置
+4.启动命令需要加上这个baseurl,不然hugo server在作为服务器查找资源的时候，默认的url是localhost，所以在公网访问的时候，会访问失败(hugo server -p 80  --bind=0.0.0.0 --baseURL 111.229.180.214)
