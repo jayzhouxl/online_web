@@ -1,0 +1,53 @@
+Watching for changes in /root/code/online_web/{archetypes,content,layouts,static,themes}
+Watching for config changes in /root/code/online_web/config/_default, /root/code/online_web/config/_default/menus
+Start building sites … 
+hugo v0.118.2-da7983ac4b94d97d776d7c2405040de97e95c03d linux/amd64 BuildDate=2023-08-31T11:23:51Z VendorInfo=gohugoio
+
+
+                   | EN | PT  
+-------------------+----+-----
+  Pages            | 20 | 11  
+  Paginator pages  |  0 |  0  
+  Non-page files   |  2 |  0  
+  Static files     | 68 | 68  
+  Processed images |  0 |  0  
+  Aliases          | 15 |  5  
+  Sitemaps         |  2 |  1  
+  Cleaned          |  0 |  0  
+
+Built in 117 ms
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //www.zxlworld.com:80/ (bind address 0.0.0.0)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site.
+2023-10-24 15:27:05.196 +0800
+Source changed REMOVE        "/root/code/online_web/content/post/f.md"
+Total in 15 ms
+
+Change detected, rebuilding site.
+2023-10-24 15:27:39.696 +0800
+Source changed WRITE         "/root/code/online_web/content/post/golang.md"
+Source changed WRITE         "/root/code/online_web/content/post/golang.md"
+Total in 32 ms
+
+Change detected, rebuilding site.
+2023-10-24 15:29:40.197 +0800
+Source changed CREATE        "/root/code/online_web/content/post/golang.png"
+Total in 24 ms
+
+Change detected, rebuilding site.
+2023-10-24 15:29:41.196 +0800
+Source changed WRITE         "/root/code/online_web/content/post/golang.png"
+Total in 26 ms
+
+Change of Static files detected, rebuilding site.
+2023-10-24 15:30:24.197 +0800
+Syncing images/golang.png to /
+
+Change detected, rebuilding site.
+2023-10-24 15:30:24.197 +0800
+Source changed RENAME        "/root/code/online_web/content/post/golang.png"
+Total in 25 ms

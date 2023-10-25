@@ -22,3 +22,8 @@ series = "series"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+
+#[sitemap]
+#hangefreq = 'daily'
+#filename = 'sitemap.xml'
+#riority = 0.5
