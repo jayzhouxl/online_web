@@ -14,7 +14,7 @@ tags = [
 categories = [
     "golang",
     "Unicode",
-    "UTF8",
+    "UTF-8",
     "编码",
 ]
 series = ["golang","golang基础"]
@@ -153,3 +153,8 @@ U+4EBA '人' 从字节位置 6 开始
 3. UTF-8只是Unicode一种编码存储形式,用以存储和翻译一个Unicode代码点.除了UTF-8外,还有其他很多编码形式表示Unicode代码点.
 4. golang中对代码点有一个特殊的表示形式,就是Rune,它是int32的别名,固定为4字节.
 5. golang中没有字符的含义,只有原始字节.
+
+## 参考文章
+1. https://blog.csdn.net/Deft_MKJing/article/details/79460485
+2. https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+3. https://go.dev/blog/strings
