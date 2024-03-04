@@ -4,7 +4,7 @@ enableSearch = false
 # socials
 #twitter = "@janedoe"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "程序员(c++,golang;广告行业;后端,大数据,算法工程)"
+introDescription = "程序员(目前就职于国内某大厂, 负责广告业务的后台开发)"
 introURL = false # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 
 #################重要！！！！与SEO有关!!!!!!!!
