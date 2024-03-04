@@ -1,25 +1,10 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+description = "网站介绍"
+date = "2024-03-04"
+aliases = ["关于"]
+author = "Authors"
 +++
-
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-
-Hugo makes use of a variety of open source projects including:
-
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+本人目前就职于国内某大厂，主要负责广告业务的后台开发。在工作期间会遇到各种各样的问题，之前也会做些技术沉淀，但是由于都是自己看，所以都是简单的写写，很简单的那种。<br>
+所以想有一个技术博客，可以督促自己系统性的做些技术积累。当然也希望自己能不仅限于输出技术类的文章，任何类型的文章，都能写一点，正好也可以锻炼锻炼自己的文笔。<br>
+其实读研之前自己还是挺喜欢写些文章。但读了研乃至现在工作这么多年，几乎都从来没怎么写过文章了。要说原因嘛，只有一个，那就是懒。希望自己能够勤快起来。

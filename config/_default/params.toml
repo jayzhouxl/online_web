@@ -1,10 +1,10 @@
 # enable search
-enableSearch = true
+enableSearch = false
 
 # socials
 #twitter = "@janedoe"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "程序员(c++,golang;广告行业;后端,大数据,算法工程)"
+introDescription = "程序员(目前就职于国内某大厂, 负责广告业务的后台开发)"
 introURL = false # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 
 #################重要！！！！与SEO有关!!!!!!!!
@@ -152,12 +152,12 @@ name = "Jay Zhou"
 
 [plausible_analytics]
 enable = false # to enable plausible analytics set to true.
-websiteDomain = "http://www.zxlworld.com/" # domain name of your website, most cases same as your base url
+websiteDomain = "https://www.zxlworld.com/" # domain name of your website, most cases same as your base url
 # plausibleDomain = "plausible.io" # default is set to plausible.io, only required if plausible is selfhosted
 # scritpName = "plausible" # default is set to plausible, only required if using a custome name for script
 
 [matomo_analytics]
 enable = false # To enable matomo analytics change to `true`.
-websiteDomain = "http://www.zxlworld.com/" # Set the domain name of your website, in most cases same as your base URL this is required.
-matomoDomain = "http://www.zxlworld.com/" # Set to Matomo domain
+websiteDomain = "https://www.zxlworld.com/" # Set the domain name of your website, in most cases same as your base URL this is required.
+matomoDomain = "https://www.zxlworld.com/" # Set to Matomo domain
 matomoSiteID = "1" # Default is set to 1, change this to the siteid being tracked
