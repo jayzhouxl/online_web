@@ -1,6 +1,6 @@
 +++
 author = "jayzhou"
-title = "Golang基础--只此一篇,立马记住iota用法"
+title = "Golang基础--一篇文章记住iota的所有用法"
 date = "2024-02-29"
 description = "golang基础介绍第四篇,立马记住iota和const用法"
 featured = true
@@ -23,12 +23,12 @@ thumbnail = "images/golang_iota.png"
 本文主要是对Golang中iota和const的用法,做了总结,目的就是让你通过这一篇文章就能立马知道iota的用法.
 <!--more-->
 在寻找一篇简洁明了的文章，来帮助你理解iota的作用？如果是这样，那么你来对地方了。在这篇文章中，我将尽可能简洁地解释iota和const特性，并通过实例来展示它们的应用。<br>
-## 太长不看版
+## 速记
 iota和const的主要特性可以归纳为以下两点：<br>
 1. 在const块中，const会隐式重复前一个非空表达式，但要注意要与前一行常量(=号前面的标识符)数量一致。
 2. iota代表的是所在const行的行号。(这个特性,网上好多复制粘贴的文章的文章都说错了,不是说iota遇到const就变为0).
 
-## 深入探索
+## 详细分析
 让我们通过一个例子来理解这些特性。考虑以下的Golang代码：
 
 {{< highlight golang >}}
