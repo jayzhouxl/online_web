@@ -8,19 +8,19 @@ introDescription = "程序员(目前就职于国内某大厂, 负责广告业务
 introURL = false # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 
 #################重要！！！！与SEO有关!!!!!!!!
-# description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.(在此设置您网站的元标记 (SEO) 描述。或者在您的主页内容文件中设置此描述，例如内容/_index.md。后者中设置的内容将优先。）
-# keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
+description = "欢迎来到我的技术博客！此处所载，皆我编程过程中之经验总结，包括但亦不限于各种语言(Golang、C++、Python)，大数据、深度学习等领域，如若各位在阅读之后亦能有所收获，深感荣幸。最后，再次感谢诸位阅读本站文章，如有任何意见或建议，可在文章下方留言或通过微信联系吾。" # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.(在此设置您网站的元标记 (SEO) 描述。或者在您的主页内容文件中设置此描述，例如内容/_index.md。后者中设置的内容将优先。）
+keywords = ["技术", "Golang", "C++", "大数据", "Big Data"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 
-showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
+showShare = true # Uncomment to not show share buttons on each post. Also available in each post's front matter.
 
 # Google analytics Id
-ga_analytics = ""
+ga_analytics = "G-DHDMPG8QSQ"
 
 # Google tag manager
-google_tag_manager_id = ""
+google_tag_manager_id = "GTM-5ZH5SP4F"
 
 # Baidu analytics Id
-# baidu_analytics = "XXXXXXXX"
+baidu_analytics = "a14bdb95bd12b643e684bb9f64f566e9"
 
 # limit the number of taxonomies links shown on the sidebar of each page by default.
 # 标签数量最大值
